@@ -51,23 +51,59 @@ header button {
 }
 
 .fav-container{
+    background-color: rgb(236, 222, 253);
     padding: 1rem;
     text-align: center;
 }
 
 .fav-meals {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
-    padding: 0%;
+    padding: 0;
 }
 
 .fav-meals li {
-
+    margin: 5px;
+    width: 75px;
 }
 
 .fav-meals li img{
+    border: 2px solid #ffffff;
     border-radius: 50%;
+    box-shadow: 0 0 10px 2px #3333331a;
     object-fit: cover;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
+}
+.fav-meals li span {
+    font-size: 0.9rem;
+}
+
+.meal {
+    border-radius: 3px;
+    box-shadow: 0 0 10px 2px #3333331a;
+    margin: 1.5rem;
+}
+
+.meal-header {
+    position: relative;
+}
+
+.meal-header .random {
+    position: absolute;
+    top: 10px;
+    background-color: #fff;
+    padding: 0.25rem 1rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.meal-header img {
+
+}
+
+.meal-body {
+
 }
