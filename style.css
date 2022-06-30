@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
 
 body {
-    background: #ECE9E6; 
+    background: #ece9e6; 
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
     display: flex;
@@ -17,7 +17,7 @@ body {
 }
 
 img {
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .mobile-container {
@@ -46,13 +46,13 @@ header input {
 header button {
     background-color: transparent;
     border: none;
-    color: #aaa;
+    color: rgb(138, 129, 141);
     font-size: 1.5rem;
     margin-left: 10px;
 }
 
 .fav-container{
-    background-color: rgb(236, 222, 253);
+    background-color: rgb(243, 225, 255);
     padding: 0.25rem 1rem;
     text-align: center;
 }
