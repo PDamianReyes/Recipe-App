@@ -66,6 +66,7 @@ header button {
 }
 
 .fav-meals li {
+    cursor: pointer;
     position: relative;
     margin: 5px;
     width: 75px;
@@ -176,6 +177,8 @@ header button {
     border-radius: 5px;
     padding: 2rem;
     position: relative;
+    overflow: auto;
+    max-height: 100vh;
     max-width: 600px;
     width: 100%;
 }
